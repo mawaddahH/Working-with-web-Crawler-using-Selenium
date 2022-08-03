@@ -50,7 +50,7 @@ public class ChromeWebDriverAss2W9D4 {
 
 		// Find the table element using xpath
 		WebElement table = driver.findElement(By.xpath("//table[@class='grid versions']"));
-		Thread.sleep(3000);
+//		Thread.sleep(3000);
 
 		// Go through each major version
 		List<WebElement> mainVersions = table.findElements(By.tagName("tbody"));
@@ -73,7 +73,7 @@ public class ChromeWebDriverAss2W9D4 {
 				System.out.println("------------------------------");
 			}
 		}
-		Thread.sleep(3000);
+//		Thread.sleep(3000);
 
 	}
 
